@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*
+////////////////////////////////////////////////////////////////////////////////
+*/
+header {
+    background: #7983C1;
+    padding: 15px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+header .fas {
+    color: white;
+    font-size: 15px;
+}
+
+header .logo-area {
+    color: white;
+    display: inline-block;
+    width: 20%;
+    margin-left: -4px;
+}
+
+header .logo-area a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header .menu {
+    display: inline-block;
+    width: 20%;
+    margin-left: -4px;
+    border-right: 1px solid rgba(255, 255, 255, .3);
+    text-align: right;
+    padding-right: 20px;
+}
+
+header .menu ul li a {
+    margin-right: 20px;
+}
+
+header .menu ul li {
+    display: inline-block;
+}
+
+header .icon-links {
+    display: inline-block;
+    width: 20%;
+    margin-left: -4px;
+    padding-left: 20px;
+}
+
+header .icon-links ul li {
+    display: inline-block;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+header .icon-links .quick-options {
+    display: inline-block;
+    margin-left: -4px;
+    border-right: 1px solid rgba(255, 255, 255, .3);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header .icon-links .privacy {
+    display: inline-block;
+    margin-left: -4px;
+    padding-left: 20px;
+}
+
+header .search-area {
+    display: inline-block;
+    width: 40%;
+    margin-left: -4px;
+    text-align: right;
+}
+
+header .search-area ul li {
+    display: inline-block;
+}
+
+/*
+////////////////////////////////////////////////////////////////////////////////
+*/
+
+#top-area {
+    background: url(https://cdn.pixabay.com/photo/2017/12/25/14/52/abstract-3038542_960_720.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 200px 15px 90px 15px;
+}
+
+#top-area .profile-info .user-img {
+    padding: 10px;
+    display: inline-block;
+}
+
+#top-area .profile-info .user-img img {
+    border-radius: 50%;
+}
+
+#top-area .profile-info .user-details {
+    display: inline-block;
+    vertical-align: top;
+    padding: 15px;
+}
+
+#top-area .profile-info .user-details h3 {
+    color: rgb(51, 56, 61);
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+#top-area .profile-info .user-details a {
+    display: inline-block;
+    margin-left: -4px;
+    margin-right: 3%;
+    width: 47%;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(51, 56, 61);
+    font-size: 11px;
+    padding: 10px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, .3);
+    transition: background .4s ease-in-out;
+}
+
+#top-area .profile-info .user-details a:hover {
+    background: #2196f3;
+}
+
+/*
+///////////////////////////////////////////////////////////////////////
+*/
+
+#content-area {
+    background: #f8f8f8;
+    overflow: auto;
+    padding: 50px 0;
+}
+#content-area .side-column {
+    float: left;
+    width: 35%;
+    margin: 0 2.5%;
+    max-width: 380px;
+}
+#content-area .widget-box {
+    background: #fff;
+    margin: 0 0 15px 0;
+    border-radius: 3px;
+    padding: 15px;
+    -webkit-box-shadow: 0px 2px 5px -1px rgba(74, 69, 74, 1);
+    -moz-box-shadow: 0px 2px 5px -1px rgba(74, 69, 74, 1);
+    box-shadow: 0px 2px 5px -1px rgba(74, 69, 74, 1);
+    overflow: auto;
+}
+
+#content-area .widget-box .head .widget-icon-container {
+    display: inline-block;
+}
+#content-area .widget-box .head .widget-icon {
+    background: #bfbfbf;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#content-area .widget-box .head .widget-icon .fas{
+    max-width: 50%;
+    font-size: 23px;
+}
+#content-area .widget-box .head .widget-title {
+    display: inline-block;
+    padding: 0 0 0 10px;
+}
+#content-area .widget-box .body {
+    padding: 20px 0;
+}
+
+#content-area .main-area {
+    float: left;
+    width: 55%;
+    margin: 0 2.5%;
+}
