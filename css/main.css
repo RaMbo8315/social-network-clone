@@ -204,6 +204,25 @@ header .search-area ul li {
     max-width: 380px;
     margin-left: 50px;
 }
+#content-area .side-column .widget-box.intro .head {
+    margin-bottom: 15px;
+}
+#content-area .side-column .widget-box.intro .body {
+    display: inline-block;
+    padding: 10px;
+}
+#content-area .side-column .widget-box.intro .body h6{
+    padding-bottom: 15px;
+}
+#content-area .side-column .widget-box.intro .body .intro-edit{
+    float: right;
+    margin-top: -32px;
+    color: #a8a8a8;
+}
+#content-area .side-column .widget-box.intro .body p{
+    padding-bottom: 15px;
+    color: #a8a8a8;
+}
 #content-area .widget-box {
     background: #fff;
     margin: 0 0 15px 0;
