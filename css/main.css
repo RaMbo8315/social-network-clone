@@ -133,7 +133,7 @@ header .search-area ul li {
 */
 
 #top-area {
-    background: url(https://cdn.pixabay.com/photo/2017/12/25/14/52/abstract-3038542_960_720.jpg) no-repeat center center;
+    background: url(../img/background.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
